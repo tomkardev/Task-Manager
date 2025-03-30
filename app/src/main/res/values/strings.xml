@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Task Manager App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="priority_list">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+
+    <string name="open_spinner">Sort Tasks</string>
+    <string name="task_qoute">Time to shine! Your task list is waiting for your brilliance.</string>
+    <string name="high">High</string>
+    <string name="title">Title</string>
+    <string name="type_title">Type Title</string>
+    <string name="select_a_date">Select a Date</string>
+    <string name="priority">Priority</string>
+    <string name="type_description">Type Description</string>
+    <string name="choose_priority">Choose Priority</string>
+    <string name="description">Description</string>
+    <string name="submit">Submit</string>
+    <string name="completed_tasks">Completed Tasks</string>
+    <string name="pending_tasks">Pending Tasks</string>
+    <string name="your_tasks">Your Tasks</string>
+    <string name="first_task_details">First Task Details</string>
+    <string name="due_date">Due Date</string>
+    <string name="status">Status</string>
+    <string name="your_progress">Your Progress</string>
+    <string-array name="spinner_items">
+        <item>All Tasks</item>
+        <item>By Priority</item>
+        <item>By Alphabetically</item>
+        <item>By Due Date</item>
+    </string-array>
+    <string name="completed">Completed</string>
+    <string name="medium">Medium</string>
+    <string name="low">Low</string>
+    <string name="pending">Pending</string>
+    <string name="pls_enter_title">Please enter title</string>
+    <string name="fields_empty">Fields can\'t be empty</string>
+    <string name="title_activity_splashscreen">SplashscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="task_manager">Task Manager</string>
+</resources>

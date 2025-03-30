@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TaskManagerApp" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <item name="android:windowBackground">@color/white</item>
+
+
+    </style>
+
+    <style name="ToolbarTheme" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/sky_blue</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorPrimary">@color/sky_blue</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <style name="Theme.TaskManagerApp" parent="Base.Theme.TaskManagerApp" />
+
+    <style name="Theme.TaskManagerApp.Fullscreen" parent="Theme.TaskManagerApp">
+        <item name="android:actionBarStyle">
+            @style/Widget.Theme.TaskManagerApp.ActionBar.Fullscreen
+        </item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+    <style name="ThemeOverlay.TaskManagerApp.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/light_blue_600</item>
+        <item name="fullscreenTextColor">@color/light_blue_A200</item>
+    </style>
+</resources>
